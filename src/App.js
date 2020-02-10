@@ -7,6 +7,8 @@ import Home from './components/Home'
 import Writing from './components/Writing'
 import Navbar from './components/Navbar'
 import Contact from './components/Contact'
+import Photography from './components/Photography';
+import WebDev from './components/WebDev'
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Route path='/' exact component={Home} />
       <Route path='/writing' component={Writing} />
       <Route path='/contact' component={Contact} />
+      <Route path='/webdev' component={WebDev} />
+      <Route path='/photography' component={Photography} />
     </Router>
   );
 }
