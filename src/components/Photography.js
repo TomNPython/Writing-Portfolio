@@ -7,3 +7,5 @@ export default function Photography() {
         </div>
     )
 }
+
+// carousel images

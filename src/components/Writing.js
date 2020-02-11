@@ -7,3 +7,5 @@ export default function Writing() {
         </div>
     )
 }
+
+// Sort academic vs creative writing sections

@@ -9,7 +9,8 @@ export default function Home() {
                     <Link to='/'>
                         <div className="inside">
                             <h2>Home</h2>   
-                            <p>Welcome to my portfolio. Click on any of the links to view my work.</p>
+                            <p className='col-centered d-none d-md-block'>Welcome to my portfolio. On this site you can find links to my work in web development, 
+                                writing, and photography. You can also download my CV here, or get in contact here.</p>
                         </div>
                     </Link>
                 </div>
@@ -17,7 +18,8 @@ export default function Home() {
                     <Link to='/writing'>
                         <div className="inside">
                             <h2>Writing</h2>
-                            <p>Samples of my academic and creative writing.</p>
+                            <p className='col-centered d-none d-md-block'>Samples of and links to academic and creative writing 
+                            published in journals in the UK, Ireland, and Canada.</p>
                         </div>
                     </Link>
                 </div>
@@ -27,7 +29,8 @@ export default function Home() {
                     <Link to='/webdev'>
                         <div className="inside">
                             <h2>Web Development</h2>
-                            <p>A collection of my Web Development projects.</p>
+                            <p className='col-centered d-none d-md-block'>A collection of Web Development projects, both Full Stack 
+                            and Front End, each of which are hosted on Github.</p>
                         </div>
                     </Link>
                 </div>
@@ -35,7 +38,8 @@ export default function Home() {
                     <Link to='/photography'>
                         <div className="inside">
                             <h2>Photography</h2>
-                            <p>A selection of my photography.</p>
+                            <p className='col-centered d-none d-md-block'>A selection of pictures, taken across Europe and Asia using 
+                            Olympus and Nikkon cameras.</p>
                         </div>
                     </Link>
                 </div>
@@ -43,3 +47,5 @@ export default function Home() {
         </div>
     )
 }
+
+// FIX BACKGROUND POSITION ON IMAGES!!

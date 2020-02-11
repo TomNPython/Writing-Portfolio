@@ -6,12 +6,12 @@ for anyone wishing to contact me for work.
 Skeleton outline so far
 
 ToDo:
-- Homepage
+- ~Homepage~
 - Academic and Copywriting Page
 - Creative Writing page
 - Contact page
-- Bootstrap classes set up
-- Navbar
-- Images
+- ~Bootstrap classes set up~
+- ~Navbar~
+- ~Images~
 - Hosting setup (gh-pages)
-- Create and refactor functions to own folder
+- ~Create and refactor functions to own folder~
