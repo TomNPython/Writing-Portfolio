@@ -44,11 +44,67 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+#webdev-page {
+  display: block;
+  position: relative;
+}
+
+#webdev-page::after {
+  content: "";
+  background: url('./assets/Office.jpg');
+  background-position: center;
+  background-size: cover;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+#webdev-page h2 {
+  text-align: center;
+}
+
+.banner {
+  background: white;
+  opacity: 0.95
+}
+
+.project-header {
+  background: white;
+  opacity: 0.95;
+  padding: 5px;
+}
+
+.project {
+  border: 5px solid white;
+  border-radius: 5px;
+  background: white;
+  opacity: 0.95
+}
+
+.project-image {
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 15px
+}
+
+ul {
+  list-style-type: none;
+}
+
 .container {
   height: 92vh;
   min-width: 100%;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 
 h2 {
   font-size: 24px;
@@ -69,7 +125,7 @@ p {
 .col-centered {
   float: none;
   margin: 0 auto;
-  width: 60%
+  width: 60%;
 }
 
 
